@@ -1,0 +1,1 @@
+/Users/russ/.common/sh/.buildout/eggs/zope.configuration-3.7.2-py2.5.egg/zope/configuration/stxdocs.py

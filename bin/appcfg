@@ -1,0 +1,13 @@
+#!/usr/local/bin/python2.5
+
+import sys
+import os
+
+sys.path[0:0] = [
+  '/Users/russ/dev/int/bfg-gae-buildout-read-only/parts/google_appengine'
+  ]
+
+from appcfg import *
+
+if __name__ == '__main__':
+  run_file('/Users/russ/dev/int/bfg-gae-buildout-read-only/parts/google_appengine/appcfg.py', locals())

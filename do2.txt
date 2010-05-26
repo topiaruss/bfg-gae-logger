@@ -1,0 +1,718 @@
+Develop: '/Users/russ/dev/int/bfg-gae-buildout-read-only/.'
+Develop: '/Users/russ/dev/int/bfg-gae-buildout-read-only/src/myapp'
+Unused options for buildout: 'download-directory'.
+Installing wrapper.
+Getting distribution for 'zope.i18nmessageid'.
+Compiling with an SDK that doesn't seem to exist: /Developer/SDKs/MacOSX10.4u.sdk
+Please check your Xcode installation
+In file included from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:19:20: error: limits.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:22:2: error: #error "Something's broken.  UCHAR_MAX should be defined in limits.h."
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:26:2: error: #error "Python's source code assumes C's unsigned char is an 8-bit type."
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:33:19: error: stdio.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:35:5: error: #error "Python.h requires that stdio.h define NULL."
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:38:20: error: string.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:40:19: error: errno.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:42:20: error: stdlib.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:44:20: error: unistd.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:56:20: error: assert.h: No such file or directory
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:58,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:7:20: error: stdint.h: No such file or directory
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:58,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:89: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Py_uintptr_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:90: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Py_intptr_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:113: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Py_ssize_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:235:76: error: math.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:242:22: error: sys/time.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:243:18: error: time.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:261:24: error: sys/select.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:300:22: error: sys/stat.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:479:21: error: termios.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:480: warning: 'struct winsize' declared inside parameter list
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:480: warning: its scope is only this definition or declaration, which is probably not what you want
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:480: warning: 'struct termios' declared inside parameter list
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:481: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'forkpty'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:78,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pymem.h:52: warning: parameter names (without types) in function declaration
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pymem.h:53: error: expected declaration specifiers or '...' before 'size_t'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:80,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:107: error: expected specifier-qualifier-list before 'Py_ssize_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:111: error: expected specifier-qualifier-list before 'Py_ssize_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:137: error: expected declaration specifiers or '...' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:137: error: 'Py_ssize_t' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:157: error: 'readbufferproc' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:158: error: 'writebufferproc' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:159: error: 'segcountproc' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:160: error: 'charbufferproc' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:167: error: field 'len' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:168: error: field 'itemsize' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:274: error: expected specifier-qualifier-list before 'lenfunc'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:288: error: expected specifier-qualifier-list before 'lenfunc'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:305: error: expected declaration specifiers or '...' before 'FILE'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:319: warning: 'struct _typeobject' declared inside parameter list
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:320: warning: 'struct _typeobject' declared inside parameter list
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:323: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:323: error: field 'ob_size' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:325: error: field 'tp_basicsize' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:325: error: field 'tp_itemsize' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:370: error: field 'tp_weaklistoffset' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:385: error: field 'tp_dictoffset' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:456: error: expected declaration specifiers or '...' before 'FILE'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:81,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/objimpl.h:97: warning: parameter names (without types) in function declaration
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/objimpl.h:98: error: expected declaration specifiers or '...' before 'size_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/objimpl.h:228: error: 'PyGC_Collect' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/objimpl.h:249: error: field 'gc_refs' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/objimpl.h:288: warning: parameter names (without types) in function declaration
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:85,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:4:20: error: stdarg.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:57:19: error: ctype.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:120:21: error: wchar.h: No such file or directory
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:85,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:416: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:417: error: field 'length' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:492: error: 'PyUnicodeUCS2_GetSize' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:556: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:575: error: expected ';', ',' or ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:593: error: expected ';', ',' or ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:1248: error: 'PyUnicodeUCS2_Tailmatch' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:1260: error: 'PyUnicodeUCS2_Find' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:1269: error: 'PyUnicodeUCS2_Count' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:86,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/intobject.h:24: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/intobject.h:39: warning: parameter names (without types) in function declaration
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/intobject.h:42: error: 'PyInt_AsSsize_t' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:88,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/longobject.h:21: warning: parameter names (without types) in function declaration
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/longobject.h:26: error: 'PyLong_AsSsize_t' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/longobject.h:73: error: expected '=', ',', ';', 'asm' or '__attribute__' before '_PyLong_NumBits'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/longobject.h:89: error: expected declaration specifiers or '...' before 'size_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/longobject.h:112: error: expected declaration specifiers or '...' before 'size_t'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:89,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/floatobject.h:15: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:91,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/complexobject.h:41: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:94,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/stringobject.h:36: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/stringobject.h:36: error: field 'ob_size' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/stringobject.h:64: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/stringobject.h:68: error: 'PyString_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:98,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/bytearrayobject.h:23: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/bytearrayobject.h:23: error: field 'ob_size' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/bytearrayobject.h:26: error: field 'ob_alloc' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/bytearrayobject.h:42: error: 'PyByteArray_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:99,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/tupleobject.h:25: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/tupleobject.h:25: error: field 'ob_size' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/tupleobject.h:41: error: 'PyTuple_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:100,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/listobject.h:23: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/listobject.h:23: error: field 'ob_size' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/listobject.h:38: error: field 'allocated' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/listobject.h:48: error: 'PyList_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:101,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:55: error: field 'me_hash' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:71: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:72: error: field 'ma_fill' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:73: error: field 'ma_used' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:79: error: field 'ma_mask' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:109: error: 'PyDict_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:103,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/setobject.h:36: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/setobject.h:38: error: field 'fill' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/setobject.h:39: error: field 'used' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/setobject.h:45: error: field 'mask' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/setobject.h:85: error: 'PySet_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:104,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/methodobject.h:82: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:106,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/funcobject.h:22: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:107,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/classobject.h:13: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/classobject.h:24: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/classobject.h:31: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:108,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:11: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:12: error: expected specifier-qualifier-list before 'FILE'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:42: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:44: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:63: error: expected declaration specifiers or '...' before 'FILE'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:64: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Py_UniversalNewlineFread'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:109,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/cobject.h:53: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:110,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/traceback.h:13: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:111,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/sliceobject.h:23: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:112,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/cellobject.h:10: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:114,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/genobject.h:13: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:115,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/descrobject.h:46: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/descrobject.h:50: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/descrobject.h:55: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/descrobject.h:60: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/descrobject.h:65: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:117,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/weakrefobject.h:16: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/weakrefobject.h:65: error: '_PyWeakref_GetWeakrefCount' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:120,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:10: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:17: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:31: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:37: error: field 'start' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:38: error: field 'end' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:44: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:52: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:321: error: expected declaration specifiers or '...' before 'size_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:322: error: format string argument not a string type
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:323: error: expected declaration specifiers or '...' before 'size_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:323: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:324: error: format string argument not a string type
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:124,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyarena.h:50: error: expected declaration specifiers or '...' before 'size_t'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:125,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/modsupport.h:23: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/modsupport.h:35: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/modsupport.h:37: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/modsupport.h:38: error: expected declaration specifiers or '...' before 'va_list'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:126,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:35: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:36: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:38: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:39: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:40: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:45: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:55: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:61: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:78: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:146: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:148: error: expected ')' before '*' token
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:128,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/sysmodule.h:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:130,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/import.h:31: error: expected declaration specifiers or '...' before 'size_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/import.h:31: error: expected declaration specifiers or '...' before 'FILE'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:132,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:421: error: 'PyObject_Size' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:433: error: 'PyObject_Length' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:436: error: '_PyObject_LengthHint' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:859: error: 'PyNumber_AsSsize_t' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1054: error: 'PySequence_Size' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1063: error: 'PySequence_Length' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1185: error: 'PySequence_Count' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1204: error: '_PySequence_IterSearch' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1229: error: 'PySequence_Index' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1268: error: 'PyMapping_Size' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1278: error: 'PyMapping_Length' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/compile.h:5,
+                 from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:134,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/code.h:11: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:137,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pystrtod.h:11: error: expected declaration specifiers or '...' before 'size_t'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c: In function 'Message_new':
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:58: error: 'NULL' undeclared (first use in this function)
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:58: error: (Each undeclared identifier is reported only once
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:58: error: for each function it appears in.)
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:59: warning: initialization from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:59: warning: initialization from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:59: warning: initialization from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:64: warning: return from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:67: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:68: warning: return from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:70: warning: passing argument 1 of 'PyUnicode_Type.tp_new' from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:70: warning: passing argument 3 of 'PyUnicode_Type.tp_new' from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: request for member 'tp_dealloc' in something not a structure or union
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: called object '*(char **)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:72: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:73: warning: return from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:75: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:75: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:75: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:75: warning: passing argument 1 of 'PyType_IsSubtype' from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: request for member 'tp_dealloc' in something not a structure or union
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: called object '*(char **)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:80: warning: return from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:85: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:85: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:85: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:85: warning: passing argument 1 of 'PyType_IsSubtype' from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:93: warning: assignment from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:96: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:99: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:102: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:105: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:105: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:105: error: lvalue required as increment operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:105: error: lvalue required as increment operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:106: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:106: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:106: error: lvalue required as increment operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:106: error: lvalue required as increment operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:107: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:107: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:107: error: lvalue required as increment operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:107: error: lvalue required as increment operand
+In file included from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:114:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/structmember.h:10:39: error: stddef.h: No such file or directory
+In file included from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:114:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/structmember.h: At top level:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/structmember.h:40: error: field 'offset' declared as a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:117: warning: initialization makes pointer from integer without a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:118: warning: initialization makes pointer from integer without a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:119: warning: initialization makes pointer from integer without a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:120: error: 'NULL' undeclared here (not in a function)
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:120: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:120: error: (near initialization for 'Message_members[3].name')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c: In function 'Message_clear':
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: warning: assignment from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: 'PyMemberDef' has no member named 'tp_dealloc'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: called object '*(struct PyMemberDef *)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: warning: assignment from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: 'PyMemberDef' has no member named 'tp_dealloc'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: called object '*(struct PyMemberDef *)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: warning: assignment from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: 'PyMemberDef' has no member named 'tp_dealloc'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: called object '*(struct PyMemberDef *)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c: In function 'Message_reduce':
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:153: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:154: warning: return from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: 'PyMemberDef' has no member named 'tp_dealloc'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: called object '*(struct PyMemberDef *)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c: At top level:
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:167: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:167: error: (near initialization for 'Message_methods[1].ml_name')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:182: warning: initialization makes pointer from integer without a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:182: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:182: error: (near initialization for 'MessageType.ob_type')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:186: warning: initialization makes pointer from integer without a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: (near initialization for '_zope_i18nmessageid_message_methods[0].ml_name')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: (near initialization for '_zope_i18nmessageid_message_methods[0].ml_meth')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: (near initialization for '_zope_i18nmessageid_message_methods[0].ml_doc')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c: In function 'init_zope_i18nmessageid_message':
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:260: warning: comparison of distinct pointer types lacks a cast
+In file included from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:19:20: error: limits.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:22:2: error: #error "Something's broken.  UCHAR_MAX should be defined in limits.h."
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:26:2: error: #error "Python's source code assumes C's unsigned char is an 8-bit type."
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:33:19: error: stdio.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:35:5: error: #error "Python.h requires that stdio.h define NULL."
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:38:20: error: string.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:40:19: error: errno.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:42:20: error: stdlib.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:44:20: error: unistd.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:56:20: error: assert.h: No such file or directory
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:58,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:7:20: error: stdint.h: No such file or directory
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:58,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:89: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Py_uintptr_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:90: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Py_intptr_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:113: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Py_ssize_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:235:76: error: math.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:242:22: error: sys/time.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:243:18: error: time.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:261:24: error: sys/select.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:300:22: error: sys/stat.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:479:21: error: termios.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:480: warning: 'struct winsize' declared inside parameter list
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:480: warning: its scope is only this definition or declaration, which is probably not what you want
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:480: warning: 'struct termios' declared inside parameter list
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyport.h:481: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'forkpty'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:78,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pymem.h:52: warning: parameter names (without types) in function declaration
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pymem.h:53: error: expected declaration specifiers or '...' before 'size_t'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:80,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:107: error: expected specifier-qualifier-list before 'Py_ssize_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:111: error: expected specifier-qualifier-list before 'Py_ssize_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:137: error: expected declaration specifiers or '...' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:137: error: 'Py_ssize_t' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:157: error: 'readbufferproc' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:158: error: 'writebufferproc' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:159: error: 'segcountproc' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:160: error: 'charbufferproc' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:167: error: field 'len' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:168: error: field 'itemsize' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:274: error: expected specifier-qualifier-list before 'lenfunc'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:288: error: expected specifier-qualifier-list before 'lenfunc'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:305: error: expected declaration specifiers or '...' before 'FILE'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:319: warning: 'struct _typeobject' declared inside parameter list
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:320: warning: 'struct _typeobject' declared inside parameter list
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:323: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:323: error: field 'ob_size' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:325: error: field 'tp_basicsize' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:325: error: field 'tp_itemsize' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:370: error: field 'tp_weaklistoffset' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:385: error: field 'tp_dictoffset' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/object.h:456: error: expected declaration specifiers or '...' before 'FILE'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:81,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/objimpl.h:97: warning: parameter names (without types) in function declaration
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/objimpl.h:98: error: expected declaration specifiers or '...' before 'size_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/objimpl.h:228: error: 'PyGC_Collect' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/objimpl.h:249: error: field 'gc_refs' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/objimpl.h:288: warning: parameter names (without types) in function declaration
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:85,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:4:20: error: stdarg.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:57:19: error: ctype.h: No such file or directory
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:120:21: error: wchar.h: No such file or directory
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:85,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:416: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:417: error: field 'length' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:492: error: 'PyUnicodeUCS2_GetSize' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:556: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:575: error: expected ';', ',' or ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:593: error: expected ';', ',' or ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:1248: error: 'PyUnicodeUCS2_Tailmatch' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:1260: error: 'PyUnicodeUCS2_Find' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/unicodeobject.h:1269: error: 'PyUnicodeUCS2_Count' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:86,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/intobject.h:24: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/intobject.h:39: warning: parameter names (without types) in function declaration
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/intobject.h:42: error: 'PyInt_AsSsize_t' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:88,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/longobject.h:21: warning: parameter names (without types) in function declaration
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/longobject.h:26: error: 'PyLong_AsSsize_t' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/longobject.h:73: error: expected '=', ',', ';', 'asm' or '__attribute__' before '_PyLong_NumBits'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/longobject.h:89: error: expected declaration specifiers or '...' before 'size_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/longobject.h:112: error: expected declaration specifiers or '...' before 'size_t'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:89,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/floatobject.h:15: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:91,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/complexobject.h:41: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:94,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/stringobject.h:36: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/stringobject.h:36: error: field 'ob_size' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/stringobject.h:64: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/stringobject.h:68: error: 'PyString_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:98,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/bytearrayobject.h:23: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/bytearrayobject.h:23: error: field 'ob_size' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/bytearrayobject.h:26: error: field 'ob_alloc' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/bytearrayobject.h:42: error: 'PyByteArray_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:99,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/tupleobject.h:25: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/tupleobject.h:25: error: field 'ob_size' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/tupleobject.h:41: error: 'PyTuple_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:100,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/listobject.h:23: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/listobject.h:23: error: field 'ob_size' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/listobject.h:38: error: field 'allocated' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/listobject.h:48: error: 'PyList_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:101,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:55: error: field 'me_hash' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:71: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:72: error: field 'ma_fill' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:73: error: field 'ma_used' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:79: error: field 'ma_mask' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/dictobject.h:109: error: 'PyDict_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:103,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/setobject.h:36: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/setobject.h:38: error: field 'fill' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/setobject.h:39: error: field 'used' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/setobject.h:45: error: field 'mask' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/setobject.h:85: error: 'PySet_Size' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:104,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/methodobject.h:82: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:106,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/funcobject.h:22: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:107,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/classobject.h:13: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/classobject.h:24: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/classobject.h:31: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:108,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:11: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:12: error: expected specifier-qualifier-list before 'FILE'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:42: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:44: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:63: error: expected declaration specifiers or '...' before 'FILE'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/fileobject.h:64: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Py_UniversalNewlineFread'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:109,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/cobject.h:53: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:110,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/traceback.h:13: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:111,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/sliceobject.h:23: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:112,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/cellobject.h:10: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:114,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/genobject.h:13: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:115,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/descrobject.h:46: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/descrobject.h:50: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/descrobject.h:55: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/descrobject.h:60: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/descrobject.h:65: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:117,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/weakrefobject.h:16: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/weakrefobject.h:65: error: '_PyWeakref_GetWeakrefCount' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:120,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:10: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:17: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:31: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:37: error: field 'start' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:38: error: field 'end' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:44: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:52: error: field 'ob_refcnt' declared as a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:321: error: expected declaration specifiers or '...' before 'size_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:322: error: format string argument not a string type
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:323: error: expected declaration specifiers or '...' before 'size_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:323: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyerrors.h:324: error: format string argument not a string type
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:124,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pyarena.h:50: error: expected declaration specifiers or '...' before 'size_t'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:125,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/modsupport.h:23: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/modsupport.h:35: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/modsupport.h:37: error: expected declaration specifiers or '...' before 'va_list'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/modsupport.h:38: error: expected declaration specifiers or '...' before 'va_list'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:126,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:35: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:36: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:38: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:39: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:40: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:45: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:55: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:61: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:78: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:146: error: expected ')' before '*' token
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pythonrun.h:148: error: expected ')' before '*' token
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:128,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/sysmodule.h:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:130,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/import.h:31: error: expected declaration specifiers or '...' before 'size_t'
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/import.h:31: error: expected declaration specifiers or '...' before 'FILE'
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:132,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:421: error: 'PyObject_Size' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:433: error: 'PyObject_Length' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:436: error: '_PyObject_LengthHint' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:859: error: 'PyNumber_AsSsize_t' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1054: error: 'PySequence_Size' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1063: error: 'PySequence_Length' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1185: error: 'PySequence_Count' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1204: error: '_PySequence_IterSearch' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1229: error: 'PySequence_Index' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1268: error: 'PyMapping_Size' declared as function returning a function
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/abstract.h:1278: error: 'PyMapping_Length' declared as function returning a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/compile.h:5,
+                 from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:134,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/code.h:11: error: field 'ob_refcnt' declared as a function
+In file included from /Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/Python.h:137,
+                 from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:17:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/pystrtod.h:11: error: expected declaration specifiers or '...' before 'size_t'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c: In function 'Message_new':
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:58: error: 'NULL' undeclared (first use in this function)
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:58: error: (Each undeclared identifier is reported only once
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:58: error: for each function it appears in.)
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:59: warning: initialization from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:59: warning: initialization from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:59: warning: initialization from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:64: warning: return from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:67: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:68: warning: return from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:70: warning: passing argument 1 of 'PyUnicode_Type.tp_new' from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:70: warning: passing argument 3 of 'PyUnicode_Type.tp_new' from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: request for member 'tp_dealloc' in something not a structure or union
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:71: error: called object '*(char **)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:72: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:73: warning: return from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:75: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:75: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:75: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:75: warning: passing argument 1 of 'PyType_IsSubtype' from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: request for member 'tp_dealloc' in something not a structure or union
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:79: error: called object '*(char **)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:80: warning: return from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:85: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:85: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:85: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:85: warning: passing argument 1 of 'PyType_IsSubtype' from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:93: warning: assignment from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:96: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:99: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:102: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:105: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:105: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:105: error: lvalue required as increment operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:105: error: lvalue required as increment operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:106: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:106: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:106: error: lvalue required as increment operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:106: error: lvalue required as increment operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:107: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:107: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:107: error: lvalue required as increment operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:107: error: lvalue required as increment operand
+In file included from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:114:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/structmember.h:10:39: error: stddef.h: No such file or directory
+In file included from src/zope/i18nmessageid/_zope_i18nmessageid_message.c:114:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/structmember.h: At top level:
+/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/structmember.h:40: error: field 'offset' declared as a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:117: warning: initialization makes pointer from integer without a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:118: warning: initialization makes pointer from integer without a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:119: warning: initialization makes pointer from integer without a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:120: error: 'NULL' undeclared here (not in a function)
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:120: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:120: error: (near initialization for 'Message_members[3].name')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c: In function 'Message_clear':
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: warning: assignment from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: 'PyMemberDef' has no member named 'tp_dealloc'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:135: error: called object '*(struct PyMemberDef *)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: warning: assignment from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: 'PyMemberDef' has no member named 'tp_dealloc'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:136: error: called object '*(struct PyMemberDef *)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: warning: assignment from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: 'PyMemberDef' has no member named 'tp_dealloc'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:137: error: called object '*(struct PyMemberDef *)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c: In function 'Message_reduce':
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:153: warning: comparison of distinct pointer types lacks a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:154: warning: return from incompatible pointer type
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: 'PyObject' has no member named 'ob_refcnt'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: lvalue required as decrement operand
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: 'PyObject' has no member named 'ob_type'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: 'PyMemberDef' has no member named 'tp_dealloc'
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:160: error: called object '*(struct PyMemberDef *)&<erroneous-expression>' is not a function
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c: At top level:
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:167: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:167: error: (near initialization for 'Message_methods[1].ml_name')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:182: warning: initialization makes pointer from integer without a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:182: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:182: error: (near initialization for 'MessageType.ob_type')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:186: warning: initialization makes pointer from integer without a cast
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: (near initialization for '_zope_i18nmessageid_message_methods[0].ml_name')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: (near initialization for '_zope_i18nmessageid_message_methods[0].ml_meth')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: initializer element is not constant
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:235: error: (near initialization for '_zope_i18nmessageid_message_methods[0].ml_doc')
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c: In function 'init_zope_i18nmessageid_message':
+src/zope/i18nmessageid/_zope_i18nmessageid_message.c:260: warning: comparison of distinct pointer types lacks a cast
+lipo: can't figure out the architecture type of: /var/folders/+n/+nt6K0zFFrCiL-CXIxolZ++++TI/-Tmp-//cc5nngBN.out
+error: Setup script exited with error: command 'gcc' failed with exit status 1
+An error occured when trying to install zope.i18nmessageid 3.5.2. Look above this message for any errors that were output by easy_install.
+While:
+  Installing wrapper.
+  Getting distribution for 'zope.i18nmessageid'.
+Error: Couldn't install: zope.i18nmessageid 3.5.2

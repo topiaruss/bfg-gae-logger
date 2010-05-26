@@ -1,0 +1,4 @@
+ 
+export CC=gcc-4.0
+
+

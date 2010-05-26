@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: myapp
+Version: 1.0
+Summary: Repoze BFG Example.
+Home-page: UNKNOWN
+Author: Asko Soukka
+Author-email: asko.soukka@iki.fi
+License: GPL3
+Description: MyApp
+        =====
+        
+        A trivial repoze.bfg application.
+        CHANGES
+        =======
+        
+        Version 1.0.0 (2010-02-20)
+        --------------------------
+        
+        First version.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python

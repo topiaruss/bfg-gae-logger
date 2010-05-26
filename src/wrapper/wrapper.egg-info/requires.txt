@@ -1,0 +1,3 @@
+setuptools
+repoze.bfg
+myapp

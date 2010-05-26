@@ -1,0 +1,16 @@
+h1 {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 200%;
+}
+
+h1 + p {
+  position: absolute;
+  top: 51%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

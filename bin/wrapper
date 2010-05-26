@@ -1,0 +1,22 @@
+#!/usr/local/bin/python2.5
+
+import sys
+import os
+
+sys.path[0:0] = [
+  '/Users/russ/dev/int/bfg-gae-buildout-read-only/parts/google_appengine'
+  ]
+
+PROJECT_HOME = '/Users/russ/dev/int/bfg-gae-buildout-read-only'
+
+def mkvar():
+  var = os.path.join(PROJECT_HOME, 'var')
+  if not os.path.exists(var):
+    os.mkdir(var)
+  return var
+
+from dev_appserver import *
+
+if __name__ == '__main__':
+  os.environ['TMPDIR'] = mkvar()
+  run_file('/Users/russ/dev/int/bfg-gae-buildout-read-only/parts/google_appengine/dev_appserver.py', locals())

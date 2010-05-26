@@ -1,0 +1,1 @@
+/Users/russ/.common/sh/.buildout/eggs/venusian-0.2-py2.5.egg/venusian/advice.py

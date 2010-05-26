@@ -1,0 +1,31 @@
+<configure xmlns="http://namespaces.repoze.org/bfg">
+
+  <include package="repoze.bfg.includes" />
+
+  <view
+     for=".models.MyModel"
+     view=".views.my_view"
+     renderer="templates/main.pt"
+     />
+
+  <view
+     name="favicon.ico"
+     view=".base.favicon"
+     />
+
+  <view
+     name="robots.txt"
+     view=".base.robots"
+     />
+
+  <static
+     name="css"
+     path="css"
+     />
+
+  <static
+     name="images"
+     path="images"
+     />
+
+</configure>

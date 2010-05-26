@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C //DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>${title}</title>
+    <link rel="stylesheet" href="${request.application_url}/css/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="${request.application_url}/css/base.css" type="text/css" media="screen" />	
+  </head>
+  <body>
+    <h1>${title}</h1>
+    <p>Says a chameleon page template.</p>
+  </body>
+</html>
