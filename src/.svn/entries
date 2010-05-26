@@ -1,34 +1,0 @@
-10
-
-dir
-9
-http://bfg-gae-buildout.googlecode.com/svn/trunk/src
-http://bfg-gae-buildout.googlecode.com/svn
-
-
-
-2010-02-20T19:46:22.439581Z
-8
-datakurre
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-e2554e72-13cc-11df-a685-e9edad190965
-
-wrapper
-dir
-
-myapp
-dir
-
